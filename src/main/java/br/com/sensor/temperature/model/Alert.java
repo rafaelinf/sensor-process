@@ -13,6 +13,16 @@ public class Alert {
 	private String description;
 	private Date dtCreate;
 	private Double temperatureValue;
+	
+	public Alert() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Alert(String description, Date dtCreate, Double temperatureValue) {
+		this.description = description;
+		this.dtCreate = dtCreate;
+		this.temperatureValue = temperatureValue;
+	}
 
 	public String getId() {
 		return id;
